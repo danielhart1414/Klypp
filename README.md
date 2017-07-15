@@ -1,0 +1,1 @@
+This is a site providing independent hairstylists with a place to connect with potential clients. I personally have had difficulty making appointments with independent stylists and would like to ease that process for other people.

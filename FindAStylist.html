@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset='UTF-8'>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        
+        <title>Klypp Styling</title>
+        
+        <!-- Bootstrap -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        
+        <link rel='stylesheet' media='screen' href='css/site.css' />
+        
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+            <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+
+    <body>
+        <div class="pushTheFooter">
+            <!--Navbar-->
+            <div class="navbar navbar-default navbar-fixed-top">
+                <div class="container">
+                    
+                    <!--Navbar button for mobile devices-->
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    
+                    <a class="navbar-brand" href="index.html">Klypp</a>
+                    <div class="collapse navbar-collapse">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a title="Get a great cut today!" href="FindAStylist.html">Find a Klypp Stylist</a></li>
+                            <li><a title="Your path to more clients" href="BecomeAStylist.html">Become a Klypp Stylist</a></li>
+                            <li><a href="About.html">About</a></li>
+                            <li><a href="Safety.html">Safety</a></li>
+                            <li><a href="FAQs.html">FAQs</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+            <!--End navbar-->
+
+            
+            <div class="jumbotron container">
+                <h1>Sign up for Klypp today!</h1>
+                <p class="lead">Connect with stylists who can give you great cuts for less!</p>
+            </div>
+                
+            <!--The sign-up form for potential clients-->
+            <div class="container formBackground">
+                <div class="container formBox">
+                    <h2>Just fill out the information below:</h2>
+                    <form class="form">
+                        <div class="form-group">
+                            <label class="sr-only" for="clientFirstName">First Name</label>
+                            <input type="text" class="form-control" id="clientFirstName" placeholder="First Name">
+                            <label class="sr-only" for="clientLastName">Last Name</label>
+                            <input type="text" class="form-control" id="clientLastName" placeholder="Last Name">
+                        </div>
+                        <div class="form-group">
+                            <label class="sr-only" for="clientEmail">Email Address</label>
+                            <input type="email" class="form-control" id="clientEmail" placeholder="Email">
+                            <label class="sr-only" for="clientPassword">Create a Password</label>
+                            <input type="password" class="form-control" id="clientPassword" placeholder="Create a Password">
+                            <label class="sr-only" for="clientConfirmPassword">Confirm Your Password</label>
+                            <input type="password" class="form-control" id="clientConfirmPassword" placeholder="Confirm Your Password">
+                        </div>
+                        <div class="form-group">
+                            <label class="sr-only" for="clientPhone">Phone Number</label>
+                            <input type="tel" class="form-control" id="clientPhone" placeholder="Phone">
+                        </div>
+                        <button type="submit" class="btn btn-primary">Sign Me Up!</button>
+                    </form> 
+                </div>
+            </div>
+        </div>
+
+        <footer class="mainFooter">
+            <p class="footerText">&copy; 2017 Klypp</p>
+        </footer>
+
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="js/bootstrap.min.js"></script>
+    </body>
+</html>
