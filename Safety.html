@@ -22,47 +22,63 @@
     </head>
 
     <body>
-        <header>
-            <h1>Klypp</h1>
+        <div class="pushTheFooter">
+            <!--Navbar-->
+            <div class="navbar navbar-default navbar-fixed-top">
+                <div class="container">
+                    
+                    <!--Navbar button for mobile devices-->
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    
+                    <a class="navbar-brand" href="index.html">Klypp</a>
+                    <div class="collapse navbar-collapse">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a title="Get a great cut today!" href="FindAStylist.html">Find a Klypp Stylist</a></li>
+                            <li><a title="Your path to more clients" href="BecomeAStylist.html">Become a Klypp Stylist</a></li>
+                            <li><a href="About.html">About</a></li>
+                            <li><a href="Safety.html">Safety</a></li>
+                            <li><a href="FAQs.html">FAQs</a></li>
+                        </ul>
+                    </div>
 
-            <!--These important links are always visible - even for mobile devices-->
-            <button>Find a Stylist</button>
-            <button>Become a Stylist</button>
-
-            <nav>
-                <ul>
-                    <li>About</li>
-                    <li>Safety</li>
-                    <li>FAQs</li>
-                </ul>
-            </nav>
-        </header>
-
-        <!--First row-->
-        <div class="row">
-            <div class="col-md-6">
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris laoreet gravida fringilla. Curabitur venenatis metus viverra metus rhoncus, vitae scelerisque nibh porta. Proin vel mi in ex vestibulum sollicitudin. Nunc at felis efficitur, dapibus urna nec, aliquet nisl. Mauris tortor erat, vehicula convallis lorem id, facilisis condimentum urna. Nulla sollicitudin quis enim ac pharetra. Praesent ut ullamcorper urna. Nunc semper nulla at nisi tincidunt, quis accumsan lorem ullamcorper. Vivamus in dictum turpis. Proin nec nisi diam. Fusce vitae lorem pellentesque, rutrum ligula id, porta justo. Nam sed quam quis ligula finibus efficitur a quis justo. Nulla tristique lobortis justo cursus lobortis. Curabitur id massa et odio elementum auctor.
-                </p>
+                </div>
             </div>
-            <img class="col-md-6" src="images/Cat600x420.jpg" title="Happy Client" alt="Happy client">
-        </div>
-        
-        <!--Second row-->
-        <div>
-            <p>
-                Pellentesque eu magna sed lorem tincidunt accumsan. Proin tincidunt felis quis felis tincidunt vehicula. Proin eu vestibulum tellus. Sed congue dui vel volutpat tristique. Proin magna massa, imperdiet nec leo et, cursus condimentum quam. Ut non turpis eu neque consectetur luctus eu malesuada turpis. Praesent hendrerit nisl tortor. Maecenas ipsum mi, facilisis at augue sit amet, congue feugiat justo. Nunc quam augue, pharetra at nunc ut, ultrices eleifend eros. Pellentesque dolor felis, eleifend nec nisi a, laoreet volutpat ex. Maecenas eu enim ut enim interdum pellentesque non id massa. Suspendisse sem urna, dignissim sit amet eros quis, luctus ultricies nibh. Morbi dignissim urna urna, ac pretium tellus rutrum in. Nam in dolor tellus. Cras vestibulum, tellus ac lobortis molestie, magna arcu rutrum tortor, ac iaculis ligula urna ac odio.
-            </p>
-            <img src="images/Cat500x300.jpg" title="Skilled Stylist" alt="Skilled stylist">
+            <!--End navbar-->
+
+            <!--Mission statement-->
+            <div class="jumbotron container">
+                <h1>Your Safety Is Our Priority</h1>
+                <p class="lead">We care about you and your safety. That's why we have implemented the safety policies below.</p>
+            </div>
+
+            <!--First row-->
+            <div class="container row">
+                <div class="col-md-8">
+                    <h2>Our Safety Policies</h2>
+                    <ul>
+                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                        <li>Mauris laoreet gravida fringilla.</li>
+                        <li>Curabitur venenatis metus viverra metus rhoncus, vitae scelerisque nibh porta.</li>
+                        <li>Proin vel mi in ex vestibulum sollicitudin. Nunc at felis efficitur, dapibus urna nec, aliquet nisl.</li>
+                        <li>Mauris tortor erat, vehicula convallis lorem id, facilisis condimentum urna.</li>
+                    </ul>
+                </div>
+                <img class="col-md-4 img-responsive" src="images/Cat300x350.jpg" title="We care about your safety" alt="A cat">
+            </div>
         </div>
 
-        <footer>
-            <p>&copy; 2017 Klypp</p>
+        <footer class="mainFooter">
+            <p class="footerText">&copy; 2017 Klypp</p>
         </footer>
 
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
         <!-- Include all compiled plugins (below), or include individual files as needed -->
         <script src="js/bootstrap.min.js"></script>
+        <script src="js/myJS.js"></script>
     </body>
 </html>

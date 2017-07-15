@@ -33,8 +33,7 @@ body {
     margin: 0;
 }
 
-@media (min-width: 768px) {
-    .pushTheFooter {
-        min-height: calc(100vh - 81px);
-    }
+/*Sticky footer*/
+.pushTheFooter {
+    min-height: calc(100vh - 81px);
 }
