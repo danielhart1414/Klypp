@@ -111,10 +111,6 @@ body {
 
 /*Sticky footer*/
 .pushTheFooter {
-    min-height: calc(100vh - 151px);
-}
-
-.pushTheFooter2 {
     min-height: calc(100vh - 146px);
 }
 
